@@ -1,0 +1,23 @@
+form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+input
+{
+    width:40%;
+    padding: 9px;
+    margin-top: 2%;
+    font-size: 17px;
+    border-radius: 4px;
+    outline: none;
+}
+button
+{
+    margin-bottom: 2%;
+    margin-top: 2%;
+    width:7%;
+}

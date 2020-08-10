@@ -1,0 +1,28 @@
+.cont
+        {
+            position: absolute;
+            left:37%;
+            top:29%;
+        }
+        input
+        {
+            margin-bottom:10%;
+            width:135%;
+        }
+        #sub
+        {
+            width:55%;
+        }
+        .nav
+        {
+            display:flex;
+            flex-direction: row;
+            position: absolute;
+            left:33%;
+            top:8%;
+        }
+        .nav a
+        {
+            padding-left: 74%;
+            font-size: 150%;
+        }

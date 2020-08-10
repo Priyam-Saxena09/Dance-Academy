@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    padding: 0%;
+    margin:0%;
+}
+.nav
+{
+    background-color: black;
+    padding:14px 14px;
+}
+.nav li 
+{
+    list-style: none;
+}
+.nav li a
+{
+    text-decoration: none;
+    padding: 13px 55px;
+    font-family: "Sriracha";
+    color:white;
+    font-size: 1.7rem;
+}
+.nav li a:hover
+{
+    text-decoration: none;
+    font-family: "Sriracha";
+    color:violet;
+}
+.nav ul
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.intro
+{
+    background:center/cover no-repeat url("stock-photo-legs-of-dancing-people-party-1102411733.jpg");
+    height:460px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Chilanka";
+    font-size: 2.6rem;
+    color: wheat;
+}
+.miss
+{
+    height:480px;
+}
+.miss h2
+{
+    font-family: "Dancing Script";
+    text-align: center;
+    font-size: 2.9rem;
+}
+.spons
+{
+    height:350px;
+    background-color: lemonchiffon;
+}
+.spons h2
+{
+    font-family: "Dancing Script";
+    text-align: center;
+    font-size: 2.9rem;
+}
+.crd
+{
+    height:265px;
+    margin-left:92px;
+    margin-top:2%;
+    border:2px solid black;
+    border-radius: 4px;
+    display: inline-block;
+    font-family: "Dancing Script";
+    width:25%;
+    text-align: center;
+    font-size: 2rem;
+}
+#logo
+{
+    height:37px;
+}
+.logim
+{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.logim img
+{
+    height:97px;
+    padding-left: 2%;
+}
+.logim p
+{
+    font-size: 107%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.spon
+{
+     margin-left: 1%;
+    margin-top:2%;
+}
+.spon img
+{
+    margin-left: 8%; 
+    height:135px;
+    width:14%;
+}
+.foot
+{
+    background-color: black;
+    color: gold;
+    text-align: center;
+    font-family: 'Pacifico';
+    font-size: 25px;
+}
+h1
+{
+    text-align: center;
+    margin-top: 5px;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+input
+{
+    width:40%;
+    padding:9px;
+    margin-top: 2%;
+    font-size: 17px;
+    border-radius: 4px;
+    outline: none;
+}
+button
+{
+    margin-bottom: 2%;
+    margin-top: 2%;
+    width:7%;
+}
