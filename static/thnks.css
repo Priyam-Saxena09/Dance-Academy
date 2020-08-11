@@ -1,0 +1,32 @@
+body
+{
+background: url("00e08f0ca0b17154823c03123b1dcecf.jpg");
+background-repeat: repeat-x;
+background-size: cover;
+}
+.cont
+{
+    border:2px solid black;
+    border-radius: 4px;
+    height:350px;
+    width:60%;
+    position: absolute;
+    top:10%;
+    left:18%;
+    text-align: center;
+}
+.cont h1
+{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 270%;
+}
+.cont p
+{
+    font-size:160%;
+    color:chartreuse;
+}
+.cont b
+{
+    font-size:160%;
+    color:gold;
+}

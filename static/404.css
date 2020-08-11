@@ -1,0 +1,23 @@
+body>img
+{
+    height: 1090px;
+    width:100%;
+    opacity:0.6;
+}
+.cont
+{
+    position: absolute;
+    left:38%;
+    top:10%;
+}
+h1
+{
+    font-size: 280%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+b
+{
+    display: block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 150%;
+}

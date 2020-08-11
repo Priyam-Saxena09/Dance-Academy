@@ -1,29 +1,32 @@
+body>img
+{
+    height: 1090px;
+    width:100%;
+    opacity:0.6;
+}
 .cont
 {
     position: absolute;
     left:35%;
-    top:22%;
+    top:19%;
 }
 input
 {
-    margin-bottom:10%;
-    width:135%;
+    margin-bottom:5%;
+    width:255%;
     height:20px;
+}       
+p
+{
+    font-size: 119%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#sub
+h1
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+button
 {
     width:55%;
-}
-.nav
-{
-    display:flex;
-    flex-direction: row;
-    position: absolute;
-    left:33%;
-    top:8%;
-}
-.nav a
-{
-    padding-left: 74%;
-    font-size: 150%;
-}
+    background-color: powderblue;
+}      
